@@ -26,6 +26,7 @@ export function ProductCard() {
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" className="name-product">
                 {product.name}
+                Nombre de producto
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 {product.description}
