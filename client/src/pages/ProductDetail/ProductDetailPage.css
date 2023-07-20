@@ -45,8 +45,9 @@
   gap: 1rem;
 }
 
-.product-section-title .--detail-page{
-  text-align: right; 
+.product-section-title.--detail-page {
+  text-align: left; 
+  margin-right: 100px;
   padding: 1rem 0;
   margin: 0;
 } 
