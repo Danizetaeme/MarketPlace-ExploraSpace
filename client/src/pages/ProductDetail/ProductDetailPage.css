@@ -39,3 +39,15 @@
   width: 0;
   object-fit: contain;
 }
+
+.content-button{
+  display: flex;
+  gap: 1rem;
+}
+
+.product-section-title .--detail-page{
+  text-align: right; 
+  padding: 1rem 0;
+  margin: 0;
+} 
+
