@@ -40,6 +40,7 @@ export function ProductCard() {
             <Button size="small" color="primary" className="buy-button">
               Comprar
             </Button>
+            
           </CardActions>
         </Card>
       ))}
