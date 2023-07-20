@@ -4,8 +4,7 @@ import { useParams } from 'react-router-dom';
 import { Header } from '../../components/Header/Header';
 import { Footer } from '../../components/Footer/Footer';
 import { Banner } from '../../components/Banner/Banner';
-import { ProductCard } from '../../components/ProductCard/ProductCard';
-
+import SearchBar from '../../components/ProductCard/SearchBar';
 export const ProductPage = () => {
   // const { id } = useParams();
 
@@ -14,11 +13,10 @@ export const ProductPage = () => {
   return (
     <div className="product-page-container">
       <Header />
-      <Banner />
       <div className="product-section">
         <h2 className="product-section-title">Nuestras experiencias más... espaciales</h2>
         <div className="products">
-          <ProductCard />
+          <SearchBar />
 
         </div>
       </div>

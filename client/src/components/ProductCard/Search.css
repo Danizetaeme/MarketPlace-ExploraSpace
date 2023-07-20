@@ -1,0 +1,29 @@
+/* Estilo del input de búsqueda */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo de los cards de productos */
+  .filtered-products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  
+  /* Estilo responsivo: cambiar el diseño en pantallas más grandes */
+  @media (min-width: 768px) {
+    .filtered-products {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  /* Estilo responsivo: cambiar el diseño en pantallas aún más grandes */
+  @media (min-width: 1024px) {
+    .filtered-products {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  
